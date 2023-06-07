@@ -1,0 +1,8 @@
+E:\Programming\Proekt1\Zadacha1\bin\Debug\Zadacha1.exe.config
+E:\Programming\Proekt1\Zadacha1\bin\Debug\Zadacha1.exe
+E:\Programming\Proekt1\Zadacha1\bin\Debug\Zadacha1.pdb
+E:\Programming\Proekt1\Zadacha1\obj\Debug\Zadacha1.csproj.AssemblyReference.cache
+E:\Programming\Proekt1\Zadacha1\obj\Debug\Zadacha1.csproj.SuggestedBindingRedirects.cache
+E:\Programming\Proekt1\Zadacha1\obj\Debug\Zadacha1.csproj.CoreCompileInputs.cache
+E:\Programming\Proekt1\Zadacha1\obj\Debug\Zadacha1.exe
+E:\Programming\Proekt1\Zadacha1\obj\Debug\Zadacha1.pdb
