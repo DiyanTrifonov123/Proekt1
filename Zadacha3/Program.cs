@@ -10,21 +10,21 @@ namespace Zadacha3
     {
         static void Main(string[] args)
         {
-            int[] ocenkiBEL = new int[13];
-            int[] ocenkiProgr = new int[13];
+            double[] ocenkiBEL = new double[13];
+            double[] ocenkiProgr = new double[13];
 
             for (int i = 0; i < ocenkiBEL.Length; i++)
             {
                 Console.Write($"Въведи оценка на ученик с номер {i + 1} по БЕЛ: ");
-                ocenkiBEL[i] = int.Parse(Console.ReadLine());
-                if (ocenkiBEL[i] >= 2 && ocenkiBEL[i] <= 6)
+                ocenkiBEL[i] = double.Parse(Console.ReadLine());
+                if (ocenkiBEL[i] >= 2.0 && ocenkiBEL[i] <= 6.0)
                 {
                     continue;
                 }
                 else
                 {
                     Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiBEL[i] = int.Parse(Console.ReadLine());
+                    ocenkiBEL[i] = double.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine();
@@ -32,20 +32,20 @@ namespace Zadacha3
             for (int i = 0; i < ocenkiProgr.Length; i++)
             {
                 Console.Write($"Въведи оценка на ученик с номер {i + 1} по програмиране: ");
-                ocenkiProgr[i] = int.Parse(Console.ReadLine());
-                if (ocenkiProgr[i] >= 2 && ocenkiProgr[i] <= 6)
+                ocenkiProgr[i] = double.Parse(Console.ReadLine());
+                if (ocenkiProgr[i] >= 2.0 && ocenkiProgr[i] <= 6.0)
                 {
                     continue;
                 }
                 else
                 {
                     Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiProgr[i] = int.Parse(Console.ReadLine());
+                    ocenkiProgr[i] = double.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine();
 
-            SortedDictionary<int, double> avg = new SortedDictionary<int, double>();
+            SortedDictionary<double, double> avg = new SortedDictionary<double, double>();
             for (int i = 0; i < ocenkiBEL.Length; i++)
             {
                 avg.Add(i + 1, (ocenkiBEL[i] + ocenkiProgr[i]) / 2.0);
