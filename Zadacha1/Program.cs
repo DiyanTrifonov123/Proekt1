@@ -17,10 +17,7 @@ namespace Zadacha1
 
             while (input != 0)
             {
-                if (input != 0)
-                {
-                    list.Add(input);
-                }
+                list.Add(input);
                 Console.Write("Въведи число (за край се счита 0): ");
                 input = int.Parse(Console.ReadLine());
             }

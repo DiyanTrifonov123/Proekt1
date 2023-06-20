@@ -18,6 +18,15 @@ namespace Zadacha2
             {
                 Console.Write($"Въведи оценка на ученик с номер {i+1} по БЕЛ: ");                
                 ocenkiBEL[i] = int.Parse(Console.ReadLine());
+                if (ocenkiBEL[i] >= 2 && ocenkiBEL[i] <=6)
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
+                    ocenkiBEL[i] = int.Parse(Console.ReadLine());
+                }
             }
             Console.WriteLine();
 
@@ -25,6 +34,15 @@ namespace Zadacha2
             {
                 Console.Write($"Въведи оценка на ученик с номер {i + 1} по програмиране: ");
                 ocenkiProgr[i] = int.Parse(Console.ReadLine());
+                if (ocenkiProgr[i] >= 2 && ocenkiProgr[i] <= 6)
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
+                    ocenkiProgr[i] = int.Parse(Console.ReadLine());
+                }
             }
             Console.WriteLine();
 
