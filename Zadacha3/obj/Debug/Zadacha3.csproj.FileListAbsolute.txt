@@ -6,3 +6,11 @@ E:\Programming\Proekt1\Zadacha3\obj\Debug\Zadacha3.csproj.SuggestedBindingRedire
 E:\Programming\Proekt1\Zadacha3\obj\Debug\Zadacha3.csproj.CoreCompileInputs.cache
 E:\Programming\Proekt1\Zadacha3\obj\Debug\Zadacha3.exe
 E:\Programming\Proekt1\Zadacha3\obj\Debug\Zadacha3.pdb
+C:\9Д\Proekt1\Zadacha3\bin\Debug\Zadacha3.exe.config
+C:\9Д\Proekt1\Zadacha3\bin\Debug\Zadacha3.exe
+C:\9Д\Proekt1\Zadacha3\bin\Debug\Zadacha3.pdb
+C:\9Д\Proekt1\Zadacha3\obj\Debug\Zadacha3.csproj.AssemblyReference.cache
+C:\9Д\Proekt1\Zadacha3\obj\Debug\Zadacha3.csproj.SuggestedBindingRedirects.cache
+C:\9Д\Proekt1\Zadacha3\obj\Debug\Zadacha3.csproj.CoreCompileInputs.cache
+C:\9Д\Proekt1\Zadacha3\obj\Debug\Zadacha3.exe
+C:\9Д\Proekt1\Zadacha3\obj\Debug\Zadacha3.pdb

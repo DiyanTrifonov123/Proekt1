@@ -23,8 +23,7 @@ namespace Zadacha3
                 }
                 else
                 {
-                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiBEL[i] = double.Parse(Console.ReadLine());
+                    i--;
                 }
             }
             Console.WriteLine();
@@ -39,13 +38,12 @@ namespace Zadacha3
                 }
                 else
                 {
-                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiProgr[i] = double.Parse(Console.ReadLine());
+                    i--;
                 }
             }
             Console.WriteLine();
 
-            SortedDictionary<double, double> avg = new SortedDictionary<double, double>();
+            SortedDictionary<int, double> avg = new SortedDictionary<int, double>();
             for (int i = 0; i < ocenkiBEL.Length; i++)
             {
                 avg.Add(i + 1, (ocenkiBEL[i] + ocenkiProgr[i]) / 2.0);

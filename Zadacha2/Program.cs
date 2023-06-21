@@ -24,8 +24,7 @@ namespace Zadacha2
                 }
                 else
                 {
-                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiBEL[i] = double.Parse(Console.ReadLine());
+                    i--;
                 }
             }
             Console.WriteLine();
@@ -40,8 +39,7 @@ namespace Zadacha2
                 }
                 else
                 {
-                    Console.Write($"Грешно въведена оценка! Опитай пак: ");
-                    ocenkiProgr[i] = double.Parse(Console.ReadLine());
+                    i--;
                 }
             }
             Console.WriteLine();
@@ -50,7 +48,7 @@ namespace Zadacha2
             {
                 if (ocenkiBEL[i] < ocenkiProgr[i])
                 {
-                    Console.WriteLine($"Номер: {i+1} Оценка БЕЛ: {ocenkiBEL[i]} Оценка програмиране: {ocenkiProgr[i]}");
+                    Console.WriteLine($"Номер: {i+1} Оценка БЕЛ: {ocenkiBEL[i]:f2} Оценка програмиране: {ocenkiProgr[i]:f2}");
                 }
             }
             Console.WriteLine();
